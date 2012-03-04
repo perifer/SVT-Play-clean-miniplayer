@@ -1,0 +1,15 @@
+{
+  "name": "SVT Play clean miniplayer",
+  "version": "1.0",
+  "description": "A resizable popup window with just the player and nothing else.",
+  "content_scripts": [
+    {
+      "matches": ["http://svtplay.se/popup/minispelare/*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": [
+    "http://svtplay.se/*"
+  ]
+}

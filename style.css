@@ -1,0 +1,4 @@
+html, body, div#flash-video, #playerSwf, object {
+  height: 100%!important;
+  width: 100%!important;
+}
